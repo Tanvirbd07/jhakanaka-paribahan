@@ -13,7 +13,6 @@ for (const button of buttons){
     const td = document.createElement("td");
     const td2 = document.createElement("td");
     const td3 = document.createElement("td");
-
     td.innerText = seatName;
     td2.innerText = "Economy";
     td3.innerText = "550";
@@ -27,8 +26,13 @@ for (const button of buttons){
     document.getElementById("available-seat").innerText = availableSeat;
     const total = click * 550;
     document.getElementById("total-price").innerText = total;
-    console.log(total) 
+
 })}
+ 
+function fun(){
+    document.getElementsByClassName("fafa").setAttribute("disabled","")
+}
+
 
 const discount = document.getElementById("discount");
 let total = parseFloat(
