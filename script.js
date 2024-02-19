@@ -21,7 +21,6 @@ for (const button of buttons){
     tr.appendChild(td2)
     tr.appendChild(td3)
     container.appendChild(tr)
-
     availableSeat = availableSeat - 1;
     click = click + 1;
     document.getElementById("seat").innerText =  click;
